@@ -1,0 +1,224 @@
+@font-face {
+  font-family: font1;
+  src: url("../fonts/fonts/Destiny.ttf");
+}
+
+body, html {
+	font-family: sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	/*background-color: rgb(128, 131, 85);*/
+  background-color: black;
+	width: 100% !important;
+	height: 100% !important;
+  color: white;
+}
+
+h1 {
+	font-weight: 900;
+}
+h1 strong {
+	font-weight: 900;
+}
+h2 {
+	text-transform: uppercase;
+	line-height: 20px;
+	font-weight: 600;
+	margin: 0;
+	color: rgb(133, 39, 56);
+}
+h3 {
+	font-size: 20px;
+	font-weight: 700;
+	color: rgb(133, 39, 56);
+}
+
+p {
+	font-size: 12px;
+}
+
+.justifier{
+	text-align: justify;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+
+/* Navigation */
+.navbar-custom {
+	padding: 0;
+	border-bottom: 0;
+	letter-spacing: 1px;
+	background: rgb(143, 14, 48);
+	text-transform: uppercase;
+}
+
+.navbar-custom a {
+	color: rgb(20, 20, 14);
+}
+.navbar-custom .nav li a {
+	-webkit-transition: background .3s ease-in-out;
+	-moz-transition: background .3s ease-in-out;
+	transition: background .3s ease-in-out;
+}
+.navbar-custom .nav li a:hover {
+	outline: 0;
+	color: white;
+	background-color: transparent;
+}
+
+.navbar-custom{
+  font-size: 20px;
+}
+
+/* Home Section */
+#intro {
+	display: table;
+	width: 100%;
+	height: auto;
+	padding: 100px 0;
+	text-align: center;
+	color: #fff;
+	background: url(../img/destiny1.jpg) no-repeat center center fixed;
+	background-color: #000;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+#intro .intro-body {
+	display: table-cell;
+	vertical-align: middle;
+}
+#intro .intro-body H1 {
+	font-size: 76px;
+	font-weight: 700;
+	color: rgba(159, 19, 19, 0.8);
+	text-transform: uppercase;
+}
+#intro .intro-body .brand-heading {
+	color: rgb(142, 40, 74);
+	text-shadow: 0 4px rgb(89, 4, 24);
+}
+#intro .intro-body .intro-text {
+	font-size: 18px;
+}
+
+#titre1{
+  font-family: font1;
+}
+#titre2{
+  font-family: font1;
+}
+
+
+@media(min-width:768px) {
+}
+
+#page-top:hover{
+  color: white;
+}
+
+#intro {
+	height: 100%;
+	padding: 0;
+}
+#intro .intro-body .intro-text {
+	font-size: 18px;
+	letter-spacing: 1px;
+	margin-bottom: 100px;
+	color: rgba(255,255,255,0.9);
+}
+
+#btnShow{
+  	background: rgb(143, 14, 48);
+}
+
+#btnHide{
+  	background: rgb(143, 14, 48);
+}
+
+#btntransformText{
+width: 200px;
+border-radius: 40%;
+margin: auto;
+font-size: 2em;
+color:  rgb(143, 14, 48);
+}
+
+.btn-default {
+	color: #f6f6f6;
+	background: rgb(143, 14, 48);
+	border: 0;
+	padding: 12px 24px;
+	margin: 0 8px;
+	font-size: 18px;
+	transition: all 0.5s;
+}
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
+	color: black;
+	background: rgb(143, 14, 48);
+}
+.section-title.center {
+	padding: 30px 0;
+}
+.section-title h2, .section-title.center h2 {
+	margin-bottom: 30px;
+}
+
+#checkmail{
+  width: 120px;
+  background: rgb(143, 14, 48);
+color: white;
+}
+#checkmail:hover{
+  color: black;
+}
+
+button.accordion {
+  background: rgb(143, 14, 48);
+    color: white;
+    cursor: pointer;
+    border-radius: 40%;
+    font-size: 15px;
+}
+
+div.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: black;
+}
+
+#errormail{
+visibility: hidden;
+color: rgb(181, 2, 7);
+
+
+}
+/* Footer Section*/
+#footer {
+  margin-top: 30px;
+	background: rgb(143, 14, 48);
+	color: black;
+	padding: 20px 0;
+	text-align: center;
+}
+
+#footer p {
+	font-size: 23px;
+	margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+.hover-bg .hover-text {
+	padding: 20%;
+}
+}
+
+@media (max-width: 640px) {
+#intro .intro-body H1 {
+	font-size: 5em;
+}
+}
